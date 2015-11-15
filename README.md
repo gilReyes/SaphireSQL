@@ -29,4 +29,7 @@ Help database tester with an object oriented programming tactic
 Allow user to generate quicker queries.
 
 2.1 Functional Requirements
-To process the code from the SQL query tester language there will be a lexical analyzer and syntax analyzer. For the lexical analyzer the tool used for producing a scanner will be JFlex because the language chosen for the development of the language is Java. The syntax analyzer tool used will be parsing simulator. The parsing strategy for the language will be bottom up parser LR (left-to-right, rightmost derivation) type. The query language used to process the code will be SQL because it is the most widely used query language in the world.
+To process the code from the SQL query tester language there will be a lexical analyzer and syntax analyzer. For the lexical analyzer the tool used for producing a scanner will be PLY because the language chosen for the development of the language is Python. The syntax analyzer tool used will be parsing simulator. The parsing strategy for the language will be bottom up parser LR (left-to-right, rightmost derivation) type. The query language used to process the code will be SQL because it is the most widely used query language in the world.
+
+2.2 Outputs: 
+The possible outputs will be all the possible queries possible regarding the table or tables specified. 
